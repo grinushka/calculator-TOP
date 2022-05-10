@@ -1,0 +1,67 @@
+body {
+  font-size: 50px;
+}
+
+.main {
+  height: 700px;
+  width: 500px;
+  border: black solid 1px;
+  text-align: center;
+}
+.screen {
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+.operators {
+  height: 500px;
+  width: 500px;
+  display: flex;
+}
+
+.left-side {
+  width: 75%;
+}
+
+.right-side {
+  width: 25%;
+  background-color: rgb(126, 126, 252);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.upper-opers {
+  height: 20%;
+  background-color: white;
+  display: flex;
+}
+
+.opers {
+  flex: 1;
+}
+
+.numbers {
+  height: 80%;
+  background-color: rgb(201, 201, 201);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.number {
+  flex: 1;
+  flex-basis: 125px;
+  flex-grow: 0;
+}
+.zero {
+  flex-grow: 1;
+}
+.opers-right {
+  flex-basis: 100px;
+}
+
+.number {
+  border: none;
+  padding: none;
+  margin: none;
+}

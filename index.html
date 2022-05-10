@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="screen"></div>
+      <div class="operators">
+        <div class="left-side">
+          <div class="upper-opers">
+            <div class="opers clear" data-key="46">CA</div>
+            <div class="opers delete" data-key="8">Del</div>
+            <div class="opers percent" data-key="53">%</div>
+          </div>
+          <div class="numbers">
+            <button class="number" value="7" data-key="103">7</button>
+            <button class="number" value="8" data-key="104">8</button>
+            <button class="number" value="9" data-key="105">9</button>
+            <button class="number" value="4" data-key="100">4</button>
+            <button class="number" value="5" data-key="101">5</button>
+            <button class="number" value="6" data-key="103">6</button>
+            <button class="number" value="1" data-key="97">1</button>
+            <button class="number" value="2" data-key="98">2</button>
+            <button class="number" value="3" data-key="99">3</button>
+            <button class="number" value="0" data-key="96">0</button>
+            <button class="dot" value="." data-key="110">.</button>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="opers-right operator divide" data-key="111">/</div>
+          <div class="opers-right operator multiply" data-key="106">X</div>
+          <div class="opers-right operator subtract" data-key="109">-</div>
+          <div class="opers-right operator add" data-key="107">+</div>
+          <div class="opers-right equal" data-key="187">=</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
